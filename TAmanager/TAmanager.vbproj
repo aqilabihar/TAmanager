@@ -201,6 +201,9 @@
     <EmbeddedResource Include="Form10.resx">
       <DependentUpon>Form10.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMHS.resx">
+      <DependentUpon>FormMHS.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menuMHS.resx">
       <DependentUpon>menuMHS.vb</DependentUpon>
     </EmbeddedResource>

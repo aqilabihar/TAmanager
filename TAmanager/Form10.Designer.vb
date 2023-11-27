@@ -207,6 +207,7 @@ Partial Class Form10
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form10"
         Me.Text = "Arsip dan Riwayat"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -218,6 +218,7 @@ Partial Class Form6
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form6"
         Me.Text = "Progress Mahasiswa"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

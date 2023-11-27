@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form8
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form8
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form8))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -44,7 +44,6 @@ Partial Class Form8
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -71,7 +70,7 @@ Partial Class Form8
         '
         Me.TextBox1.Location = New System.Drawing.Point(457, 12)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(237, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(402, 22)
         Me.TextBox1.TabIndex = 2
         '
         'Label2
@@ -87,7 +86,7 @@ Partial Class Form8
         '
         Me.TextBox2.Location = New System.Drawing.Point(457, 56)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(237, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(402, 22)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
@@ -103,7 +102,7 @@ Partial Class Form8
         '
         Me.TextBox3.Location = New System.Drawing.Point(457, 95)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(237, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(402, 22)
         Me.TextBox3.TabIndex = 6
         '
         'Label4
@@ -119,7 +118,7 @@ Partial Class Form8
         '
         Me.TextBox4.Location = New System.Drawing.Point(457, 131)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(237, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(402, 22)
         Me.TextBox4.TabIndex = 8
         '
         'Label5
@@ -135,7 +134,7 @@ Partial Class Form8
         '
         Me.TextBox5.Location = New System.Drawing.Point(457, 170)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(237, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(402, 22)
         Me.TextBox5.TabIndex = 10
         '
         'Label6
@@ -151,18 +150,18 @@ Partial Class Form8
         '
         Me.TextBox6.Location = New System.Drawing.Point(457, 208)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(237, 22)
+        Me.TextBox6.Size = New System.Drawing.Size(402, 22)
         Me.TextBox6.TabIndex = 12
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
-        Me.DataGridView1.Location = New System.Drawing.Point(13, 282)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 282)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(787, 257)
+        Me.DataGridView1.Size = New System.Drawing.Size(803, 231)
         Me.DataGridView1.TabIndex = 13
         '
         'Column1
@@ -209,28 +208,18 @@ Partial Class Form8
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(436, 247)
+        Me.Button1.Location = New System.Drawing.Point(589, 236)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(91, 29)
+        Me.Button1.Size = New System.Drawing.Size(106, 40)
         Me.Button1.TabIndex = 14
         Me.Button1.Text = "Simpan"
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(548, 247)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(146, 29)
-        Me.Button2.TabIndex = 15
-        Me.Button2.Text = "Pengumuman Hasil"
-        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form8
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(806, 543)
-        Me.Controls.Add(Me.Button2)
+        Me.ClientSize = New System.Drawing.Size(919, 516)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBox6)
@@ -277,5 +266,4 @@ Partial Class Form8
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
 End Class

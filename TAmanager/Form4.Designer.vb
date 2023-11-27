@@ -39,8 +39,10 @@ Partial Class Form4
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -65,7 +67,7 @@ Partial Class Form4
         '
         Me.TextBox1.Location = New System.Drawing.Point(477, 27)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(249, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(383, 22)
         Me.TextBox1.TabIndex = 2
         '
         'Label2
@@ -81,7 +83,7 @@ Partial Class Form4
         '
         Me.TextBox2.Location = New System.Drawing.Point(477, 75)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(249, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(383, 22)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
@@ -97,7 +99,7 @@ Partial Class Form4
         '
         Me.TextBox3.Location = New System.Drawing.Point(477, 130)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(249, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(383, 22)
         Me.TextBox3.TabIndex = 6
         '
         'Label4
@@ -113,7 +115,7 @@ Partial Class Form4
         '
         Me.TextBox4.Location = New System.Drawing.Point(477, 181)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(249, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(383, 22)
         Me.TextBox4.TabIndex = 8
         '
         'DataGridView1
@@ -124,7 +126,7 @@ Partial Class Form4
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(558, 241)
+        Me.DataGridView1.Size = New System.Drawing.Size(556, 241)
         Me.DataGridView1.TabIndex = 9
         '
         'Column1
@@ -157,7 +159,7 @@ Partial Class Form4
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(358, 229)
+        Me.Button1.Location = New System.Drawing.Point(477, 229)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(114, 41)
         Me.Button1.TabIndex = 10
@@ -166,18 +168,28 @@ Partial Class Form4
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(494, 229)
+        Me.Button2.Location = New System.Drawing.Point(647, 229)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(115, 41)
+        Me.Button2.Size = New System.Drawing.Size(121, 41)
         Me.Button2.TabIndex = 11
         Me.Button2.Text = "Pelaksanaan Tugas Akhir"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(806, 451)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(101, 53)
+        Me.PictureBox2.TabIndex = 12
+        Me.PictureBox2.TabStop = False
         '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(743, 529)
+        Me.ClientSize = New System.Drawing.Size(919, 516)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
@@ -195,6 +207,7 @@ Partial Class Form4
         Me.Text = "Data Dosen Pembimbing"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -216,4 +229,5 @@ Partial Class Form4
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

@@ -48,9 +48,9 @@ Partial Class Form10
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 21)
+        Me.PictureBox1.Location = New System.Drawing.Point(31, 51)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(235, 140)
+        Me.PictureBox1.Size = New System.Drawing.Size(232, 140)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -67,7 +67,7 @@ Partial Class Form10
         '
         Me.TextBox1.Location = New System.Drawing.Point(436, 21)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(210, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(426, 22)
         Me.TextBox1.TabIndex = 2
         '
         'Label2
@@ -83,7 +83,7 @@ Partial Class Form10
         '
         Me.TextBox2.Location = New System.Drawing.Point(436, 60)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(210, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(426, 22)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
@@ -99,7 +99,7 @@ Partial Class Form10
         '
         Me.TextBox3.Location = New System.Drawing.Point(436, 105)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(210, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(426, 22)
         Me.TextBox3.TabIndex = 6
         '
         'Label4
@@ -115,7 +115,7 @@ Partial Class Form10
         '
         Me.TextBox4.Location = New System.Drawing.Point(436, 145)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(210, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(426, 22)
         Me.TextBox4.TabIndex = 8
         '
         'Label5
@@ -131,18 +131,18 @@ Partial Class Form10
         '
         Me.TextBox5.Location = New System.Drawing.Point(436, 186)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(210, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(426, 22)
         Me.TextBox5.TabIndex = 10
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
-        Me.DataGridView1.Location = New System.Drawing.Point(3, 268)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 302)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(680, 180)
+        Me.DataGridView1.Size = New System.Drawing.Size(895, 186)
         Me.DataGridView1.TabIndex = 11
         '
         'Column1
@@ -182,9 +182,9 @@ Partial Class Form10
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(302, 218)
+        Me.Button1.Location = New System.Drawing.Point(436, 226)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(108, 35)
+        Me.Button1.Size = New System.Drawing.Size(138, 58)
         Me.Button1.TabIndex = 12
         Me.Button1.Text = "Simpan"
         Me.Button1.UseVisualStyleBackColor = True
@@ -193,7 +193,7 @@ Partial Class Form10
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(919, 516)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBox5)

@@ -38,8 +38,10 @@ Partial Class Form9
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -66,7 +68,7 @@ Partial Class Form9
         Me.TextBox1.Location = New System.Drawing.Point(455, 22)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(321, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(416, 22)
         Me.TextBox1.TabIndex = 2
         '
         'Label2
@@ -83,7 +85,7 @@ Partial Class Form9
         Me.TextBox2.Location = New System.Drawing.Point(455, 63)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(321, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(416, 22)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
@@ -100,7 +102,7 @@ Partial Class Form9
         Me.TextBox3.Location = New System.Drawing.Point(455, 108)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(321, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(416, 22)
         Me.TextBox3.TabIndex = 6
         '
         'Label4
@@ -117,7 +119,7 @@ Partial Class Form9
         Me.TextBox4.Location = New System.Drawing.Point(455, 148)
         Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(321, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(416, 22)
         Me.TextBox4.TabIndex = 8
         '
         'DataGridView1
@@ -162,7 +164,7 @@ Partial Class Form9
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(380, 208)
+        Me.Button1.Location = New System.Drawing.Point(598, 194)
         Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(108, 50)
@@ -170,11 +172,21 @@ Partial Class Form9
         Me.Button1.Text = "Simpan"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(806, 450)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(101, 54)
+        Me.PictureBox2.TabIndex = 16
+        Me.PictureBox2.TabStop = False
+        '
         'Form9
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(784, 530)
+        Me.ClientSize = New System.Drawing.Size(919, 516)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBox4)
@@ -192,6 +204,7 @@ Partial Class Form9
         Me.Text = "Pengumuman Hasil"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -212,4 +225,5 @@ Partial Class Form9
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Button1 As Button
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

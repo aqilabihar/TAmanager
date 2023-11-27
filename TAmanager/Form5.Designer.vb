@@ -71,7 +71,7 @@ Partial Class Form5
         '
         Me.TextBox1.Location = New System.Drawing.Point(448, 12)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(281, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(422, 22)
         Me.TextBox1.TabIndex = 2
         '
         'Label2
@@ -87,7 +87,7 @@ Partial Class Form5
         '
         Me.TextBox2.Location = New System.Drawing.Point(448, 54)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(281, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(422, 22)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
@@ -103,7 +103,7 @@ Partial Class Form5
         '
         Me.TextBox3.Location = New System.Drawing.Point(448, 97)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(281, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(422, 22)
         Me.TextBox3.TabIndex = 6
         '
         'Label4
@@ -119,7 +119,7 @@ Partial Class Form5
         '
         Me.TextBox4.Location = New System.Drawing.Point(448, 137)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(281, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(422, 22)
         Me.TextBox4.TabIndex = 8
         '
         'Label5
@@ -144,14 +144,14 @@ Partial Class Form5
         '
         Me.TextBox5.Location = New System.Drawing.Point(448, 175)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(281, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(422, 22)
         Me.TextBox5.TabIndex = 12
         '
         'TextBox6
         '
         Me.TextBox6.Location = New System.Drawing.Point(448, 217)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(281, 22)
+        Me.TextBox6.Size = New System.Drawing.Size(422, 22)
         Me.TextBox6.TabIndex = 13
         '
         'DataGridView1
@@ -162,7 +162,7 @@ Partial Class Form5
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(803, 201)
+        Me.DataGridView1.Size = New System.Drawing.Size(895, 201)
         Me.DataGridView1.TabIndex = 14
         '
         'Column1
@@ -210,7 +210,7 @@ Partial Class Form5
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.Button1.Location = New System.Drawing.Point(334, 257)
+        Me.Button1.Location = New System.Drawing.Point(448, 257)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(114, 49)
         Me.Button1.TabIndex = 15
@@ -220,7 +220,7 @@ Partial Class Form5
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.Button2.Location = New System.Drawing.Point(485, 257)
+        Me.Button2.Location = New System.Drawing.Point(615, 257)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(114, 49)
         Me.Button2.TabIndex = 16
@@ -232,7 +232,7 @@ Partial Class Form5
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Aqua
-        Me.ClientSize = New System.Drawing.Size(879, 525)
+        Me.ClientSize = New System.Drawing.Size(919, 516)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)

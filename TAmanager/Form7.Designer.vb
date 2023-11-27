@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form7
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form7
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form7))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -38,9 +38,10 @@ Partial Class Form7
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -65,7 +66,7 @@ Partial Class Form7
         '
         Me.TextBox1.Location = New System.Drawing.Point(430, 12)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(273, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(443, 22)
         Me.TextBox1.TabIndex = 2
         '
         'Label2
@@ -81,7 +82,7 @@ Partial Class Form7
         '
         Me.TextBox2.Location = New System.Drawing.Point(430, 52)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(273, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(443, 22)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
@@ -97,7 +98,7 @@ Partial Class Form7
         '
         Me.TextBox3.Location = New System.Drawing.Point(430, 97)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(273, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(443, 22)
         Me.TextBox3.TabIndex = 6
         '
         'Label4
@@ -113,18 +114,18 @@ Partial Class Form7
         '
         Me.TextBox4.Location = New System.Drawing.Point(430, 139)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(273, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(443, 22)
         Me.TextBox4.TabIndex = 8
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4})
-        Me.DataGridView1.Location = New System.Drawing.Point(13, 230)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 259)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(554, 208)
+        Me.DataGridView1.Size = New System.Drawing.Size(555, 234)
         Me.DataGridView1.TabIndex = 9
         '
         'Column1
@@ -157,28 +158,28 @@ Partial Class Form7
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(430, 177)
+        Me.Button1.Location = New System.Drawing.Point(586, 181)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 47)
         Me.Button1.TabIndex = 10
         Me.Button1.Text = "Simpan"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button2
+        'PictureBox2
         '
-        Me.Button2.Location = New System.Drawing.Point(567, 177)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(106, 47)
-        Me.Button2.TabIndex = 11
-        Me.Button2.Text = "Eval dan Penilaian"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(806, 440)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(101, 53)
+        Me.PictureBox2.TabIndex = 13
+        Me.PictureBox2.TabStop = False
         '
         'Form7
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button2)
+        Me.ClientSize = New System.Drawing.Size(919, 516)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBox4)
@@ -195,6 +196,7 @@ Partial Class Form7
         Me.Text = "Pengiriman Dokumen"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -215,5 +217,5 @@ Partial Class Form7
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

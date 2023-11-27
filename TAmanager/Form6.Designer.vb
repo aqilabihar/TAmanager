@@ -42,14 +42,16 @@ Partial Class Form6
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 22)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 41)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(240, 156)
         Me.PictureBox1.TabIndex = 0
@@ -68,7 +70,7 @@ Partial Class Form6
         '
         Me.TextBox1.Location = New System.Drawing.Point(450, 22)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(259, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(419, 22)
         Me.TextBox1.TabIndex = 2
         '
         'Label2
@@ -84,7 +86,7 @@ Partial Class Form6
         '
         Me.TextBox2.Location = New System.Drawing.Point(450, 60)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(259, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(419, 22)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
@@ -100,7 +102,7 @@ Partial Class Form6
         '
         Me.TextBox3.Location = New System.Drawing.Point(450, 100)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(259, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(419, 22)
         Me.TextBox3.TabIndex = 6
         '
         'Label4
@@ -116,7 +118,7 @@ Partial Class Form6
         '
         Me.TextBox4.Location = New System.Drawing.Point(450, 138)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(259, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(419, 22)
         Me.TextBox4.TabIndex = 8
         '
         'Label5
@@ -132,7 +134,7 @@ Partial Class Form6
         '
         Me.TextBox5.Location = New System.Drawing.Point(450, 175)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(259, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(419, 22)
         Me.TextBox5.TabIndex = 10
         '
         'Button1
@@ -157,11 +159,11 @@ Partial Class Form6
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 278)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 277)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(683, 173)
+        Me.DataGridView1.Size = New System.Drawing.Size(668, 227)
         Me.DataGridView1.TabIndex = 13
         '
         'Column1
@@ -199,11 +201,21 @@ Partial Class Form6
         Me.Column5.Name = "Column5"
         Me.Column5.Width = 125
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(806, 439)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(101, 53)
+        Me.PictureBox2.TabIndex = 14
+        Me.PictureBox2.TabStop = False
+        '
         'Form6
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(805, 463)
+        Me.ClientSize = New System.Drawing.Size(919, 516)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -223,6 +235,7 @@ Partial Class Form6
         Me.Text = "Progress Mahasiswa"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -247,4 +260,5 @@ Partial Class Form6
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

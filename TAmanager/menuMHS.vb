@@ -14,4 +14,8 @@
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
         switchppanel(Form4)
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        switchppanel(Form5)
+    End Sub
 End Class

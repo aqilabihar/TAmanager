@@ -53,7 +53,7 @@ Partial Class Form3
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(251, 268)
         Me.PictureBox1.TabIndex = 0
@@ -72,7 +72,7 @@ Partial Class Form3
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(388, 20)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(141, 20)
         Me.TextBox1.TabIndex = 2
@@ -90,7 +90,7 @@ Partial Class Form3
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(388, 53)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(141, 20)
         Me.TextBox2.TabIndex = 4
@@ -108,7 +108,7 @@ Partial Class Form3
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(388, 89)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(141, 20)
         Me.TextBox3.TabIndex = 6
@@ -126,7 +126,7 @@ Partial Class Form3
         'TextBox4
         '
         Me.TextBox4.Location = New System.Drawing.Point(388, 123)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(141, 20)
         Me.TextBox4.TabIndex = 8
@@ -144,7 +144,7 @@ Partial Class Form3
         'TextBox5
         '
         Me.TextBox5.Location = New System.Drawing.Point(388, 154)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(141, 20)
         Me.TextBox5.TabIndex = 10
@@ -162,7 +162,7 @@ Partial Class Form3
         'TextBox6
         '
         Me.TextBox6.Location = New System.Drawing.Point(388, 186)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(141, 20)
         Me.TextBox6.TabIndex = 12
@@ -171,7 +171,7 @@ Partial Class Form3
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.Highlight
         Me.Button1.Location = New System.Drawing.Point(298, 219)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(102, 37)
         Me.Button1.TabIndex = 14
@@ -182,7 +182,7 @@ Partial Class Form3
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.Highlight
         Me.Button2.Location = New System.Drawing.Point(426, 219)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(102, 37)
         Me.Button2.TabIndex = 15
@@ -194,7 +194,7 @@ Partial Class Form3
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
         Me.DataGridView1.Location = New System.Drawing.Point(0, 273)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
@@ -265,7 +265,8 @@ Partial Class Form3
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form3"
         Me.Text = "Daftar Tugas Akhir"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

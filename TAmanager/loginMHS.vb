@@ -20,7 +20,7 @@ Public Class loginMHS
             My.Settings.Save()
 
             ' Buka form MHS
-            Dim FormMHS As New FormMHS
+            Dim FormMHS As New menuMHS
             FormMHS.Show()
 
             ' Menutup form login

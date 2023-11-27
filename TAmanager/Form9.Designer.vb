@@ -45,85 +45,95 @@ Partial Class Form9
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(24, 11)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(268, 262)
+        Me.PictureBox1.Size = New System.Drawing.Size(201, 213)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(345, 22)
+        Me.Label1.Location = New System.Drawing.Point(259, 18)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(20, 16)
+        Me.Label1.Size = New System.Drawing.Size(18, 13)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "ID"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(455, 22)
+        Me.TextBox1.Location = New System.Drawing.Point(341, 18)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(322, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(242, 20)
         Me.TextBox1.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(318, 63)
+        Me.Label2.Location = New System.Drawing.Point(238, 51)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(95, 16)
+        Me.Label2.Size = New System.Drawing.Size(78, 13)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Tugas Akhir ID"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(455, 63)
+        Me.TextBox2.Location = New System.Drawing.Point(341, 51)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(322, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(242, 20)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(345, 108)
+        Me.Label3.Location = New System.Drawing.Point(259, 88)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(38, 16)
+        Me.Label3.Size = New System.Drawing.Size(30, 13)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Hasil"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(455, 108)
+        Me.TextBox3.Location = New System.Drawing.Point(341, 88)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(322, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(242, 20)
         Me.TextBox3.TabIndex = 6
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(305, 151)
+        Me.Label4.Location = New System.Drawing.Point(229, 123)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(144, 16)
+        Me.Label4.Size = New System.Drawing.Size(114, 13)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Tanggal Pengumuman"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(455, 148)
+        Me.TextBox4.Location = New System.Drawing.Point(341, 120)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(322, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(242, 20)
         Me.TextBox4.TabIndex = 8
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4})
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 290)
+        Me.DataGridView1.Location = New System.Drawing.Point(9, 236)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(555, 228)
+        Me.DataGridView1.Size = New System.Drawing.Size(416, 185)
         Me.DataGridView1.TabIndex = 9
         '
         'Column1
@@ -156,18 +166,19 @@ Partial Class Form9
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(380, 208)
+        Me.Button1.Location = New System.Drawing.Point(285, 169)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(108, 51)
+        Me.Button1.Size = New System.Drawing.Size(81, 41)
         Me.Button1.TabIndex = 10
         Me.Button1.Text = "Simpan"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form9
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(784, 530)
+        Me.ClientSize = New System.Drawing.Size(588, 431)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBox4)
@@ -179,6 +190,7 @@ Partial Class Form9
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form9"
         Me.Text = "Pengumuman Hasil"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

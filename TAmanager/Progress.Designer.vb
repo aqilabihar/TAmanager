@@ -131,7 +131,7 @@ Partial Class Progress
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(901, 469)
+        Me.ClientSize = New System.Drawing.Size(944, 549)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label3)

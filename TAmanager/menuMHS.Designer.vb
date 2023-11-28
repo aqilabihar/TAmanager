@@ -40,7 +40,7 @@ Partial Class menuMHS
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1123, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1123, 30)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -153,7 +153,7 @@ Partial Class menuMHS
         Me.Panel1.Location = New System.Drawing.Point(189, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(919, 516)
+        Me.Panel1.Size = New System.Drawing.Size(993, 615)
         Me.Panel1.TabIndex = 9
         '
         'menuMHS

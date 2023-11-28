@@ -95,6 +95,12 @@
     <Compile Include="DaftarTA.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dospem.Designer.vb">
+      <DependentUpon>Dospem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dospem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="menuMHS.Designer.vb">
       <DependentUpon>menuMHS.vb</DependentUpon>
     </Compile>
@@ -158,6 +164,9 @@
   <ItemGroup>
     <EmbeddedResource Include="DaftarTA.resx">
       <DependentUpon>DaftarTA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dospem.resx">
+      <DependentUpon>Dospem.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMHS.resx">
       <DependentUpon>FormMHS.vb</DependentUpon>

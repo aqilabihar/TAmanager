@@ -21,10 +21,14 @@ Public Class loginMHS
 
             ' Buka form MHS
             Dim FormMHS As New menuMHS
+
             FormMHS.Show()
+            FormMHS.mahasiswaNIM = nim
 
             ' Menutup form login
             Me.Hide()
+            login.Hide()
+
         Else
             MessageBox.Show("Login gagal. Silakan periksa kembali NIM dan password Anda.")
         End If
@@ -33,7 +37,7 @@ Public Class loginMHS
     Private Function AuthenticateMahasiswa(nim As String, password As String) As Boolean
         Try
             connection.Open()
-            Dim query As String = "SELECT COUNT(*) FROM Mahasiswa WHERE Nim = ? AND TanggalLahir = ?"
+            Dim query As String = "SELECT COUNT(*) FROM Mahasiswa WHERE Nim = ? AND Tanggal_Lahir = ?"
             Dim cmd As New OdbcCommand(query, connection)
             cmd.Parameters.AddWithValue("@Nim", nim)
             cmd.Parameters.AddWithValue("@TanggalLahir", password)

@@ -40,7 +40,7 @@ Partial Class menuMHS
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1123, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1123, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -48,12 +48,12 @@ Partial Class menuMHS
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(4, 38)
+        Me.Button1.Location = New System.Drawing.Point(12, 32)
         Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(149, 43)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Daftar Tugas Akhir"
+        Me.Button1.Text = "Pendaftaran"
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -61,7 +61,7 @@ Partial Class menuMHS
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(4, 286)
+        Me.Button2.Location = New System.Drawing.Point(12, 287)
         Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(149, 43)
@@ -74,12 +74,12 @@ Partial Class menuMHS
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(4, 135)
+        Me.Button3.Location = New System.Drawing.Point(12, 126)
         Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(149, 46)
         Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Progress Mahasiswa"
+        Me.Button3.Text = "Unggah Dokumen"
         Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button3.UseVisualStyleBackColor = False
         '
@@ -87,7 +87,7 @@ Partial Class menuMHS
         '
         Me.Button4.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(4, 187)
+        Me.Button4.Location = New System.Drawing.Point(12, 176)
         Me.Button4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(149, 43)
@@ -100,7 +100,7 @@ Partial Class menuMHS
         '
         Me.Button5.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(4, 236)
+        Me.Button5.Location = New System.Drawing.Point(12, 239)
         Me.Button5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(149, 43)
@@ -113,7 +113,7 @@ Partial Class menuMHS
         '
         Me.Button6.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(4, 334)
+        Me.Button6.Location = New System.Drawing.Point(12, 336)
         Me.Button6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(149, 43)
@@ -126,7 +126,7 @@ Partial Class menuMHS
         '
         Me.Button7.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(4, 383)
+        Me.Button7.Location = New System.Drawing.Point(12, 383)
         Me.Button7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(149, 43)
@@ -139,12 +139,12 @@ Partial Class menuMHS
         '
         Me.Button8.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(4, 87)
+        Me.Button8.Location = New System.Drawing.Point(12, 79)
         Me.Button8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(149, 43)
         Me.Button8.TabIndex = 8
-        Me.Button8.Text = "Dosen Pembimbing"
+        Me.Button8.Text = "Progress Mahasiswa"
         Me.Button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button8.UseVisualStyleBackColor = False
         '

@@ -180,7 +180,7 @@ Partial Class DaftarTA
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(932, 185)
+        Me.DataGridView1.Size = New System.Drawing.Size(929, 185)
         Me.DataGridView1.TabIndex = 15
         '
         'Column1

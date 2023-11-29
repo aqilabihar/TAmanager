@@ -79,27 +79,7 @@ Public Class DaftarTA
     End Sub
 
     ' Tombol Hapus untuk menghapus data pendaftaran jika sudah ada
-    Private Sub btnHapus_Click(sender As Object, e As EventArgs) Handles btnHapus.Click
-        ' Ambil NIM mahasiswa yang sedang login dari My.Settings
-        Dim nimMahasiswa As String = My.Settings.MahasiswaNIM
 
-        ' Gantilah ini dengan implementasi sesuai dengan kebutuhan Anda
-        ' Misalnya, lakukan DELETE dari database untuk menghapus data pendaftaran tugas akhir
-        Using connection As New OdbcConnection("Dsn=TAmanager;database=tugas_akhir;db=tugas_akhir;no_schema=1;port=3306;server=localhost;uid=root;user=root")
-            connection.Open()
-            Dim query As String = "DELETE FROM TugasAkhir WHERE Mahasiswa_NIM = ?"
 
-            Using command As New OdbcCommand(query, connection)
-                command.Parameters.AddWithValue("nim", nimMahasiswa)
-                Dim rowsAffected As Integer = command.ExecuteNonQuery()
-                If rowsAffected > 0 Then
-                    MessageBox.Show("Data pendaftaran tugas akhir berhasil dihapus.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information)
-
-                Else
-                    MessageBox.Show("Tidak ada data pendaftaran tugas akhir yang dapat dihapus.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-                End If
-            End Using
-        End Using
-    End Sub
 
 End Class

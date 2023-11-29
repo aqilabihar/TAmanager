@@ -95,6 +95,18 @@
     <Compile Include="DaftarTA.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="EvaluasiPenilaian.Designer.vb">
+      <DependentUpon>EvaluasiPenilaian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluasiPenilaian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuDSN.Designer.vb">
+      <DependentUpon>MenuDSN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuDSN.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="menuMHS.Designer.vb">
       <DependentUpon>menuMHS.vb</DependentUpon>
     </Compile>
@@ -130,6 +142,12 @@
       <DependentUpon>LoginPage.vb</DependentUpon>
     </Compile>
     <Compile Include="LoginPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonitoringProgress.Designer.vb">
+      <DependentUpon>MonitoringProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MonitoringProgress.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -171,8 +189,14 @@
     <EmbeddedResource Include="DaftarTA.resx">
       <DependentUpon>DaftarTA.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EvaluasiPenilaian.resx">
+      <DependentUpon>EvaluasiPenilaian.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMHS.resx">
       <DependentUpon>FormMHS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuDSN.resx">
+      <DependentUpon>MenuDSN.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menuMHS.resx">
       <DependentUpon>menuMHS.vb</DependentUpon>
@@ -188,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginPage.resx">
       <DependentUpon>LoginPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitoringProgress.resx">
+      <DependentUpon>MonitoringProgress.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -47,101 +47,113 @@ Partial Class ArsipRiwayat
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(9, 10)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(295, 192)
+        Me.PictureBox1.Size = New System.Drawing.Size(221, 156)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(398, 29)
+        Me.Label1.Location = New System.Drawing.Point(298, 24)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(58, 16)
+        Me.Label1.Size = New System.Drawing.Size(47, 13)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "ID_Arsip"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(549, 26)
+        Me.TextBox1.Location = New System.Drawing.Point(412, 21)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(302, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(228, 20)
         Me.TextBox1.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(398, 76)
+        Me.Label2.Location = New System.Drawing.Point(298, 62)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(106, 16)
+        Me.Label2.Size = New System.Drawing.Size(84, 13)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Mahasiswa_Nim"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(549, 73)
+        Me.TextBox2.Location = New System.Drawing.Point(412, 59)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(302, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(228, 20)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(398, 125)
+        Me.Label3.Location = New System.Drawing.Point(298, 102)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 16)
+        Me.Label3.Size = New System.Drawing.Size(62, 13)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Dosen_NIP"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(549, 125)
+        Me.TextBox3.Location = New System.Drawing.Point(412, 102)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(302, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(228, 20)
         Me.TextBox3.TabIndex = 6
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(398, 171)
+        Me.Label4.Location = New System.Drawing.Point(298, 139)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(96, 16)
+        Me.Label4.Size = New System.Drawing.Size(78, 13)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "TugasAkhir_ID"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(549, 171)
+        Me.TextBox4.Location = New System.Drawing.Point(412, 139)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(302, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(228, 20)
         Me.TextBox4.TabIndex = 8
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(398, 214)
+        Me.Label5.Location = New System.Drawing.Point(298, 174)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(96, 16)
+        Me.Label5.Size = New System.Drawing.Size(75, 13)
         Me.Label5.TabIndex = 9
         Me.Label5.Text = "Tanggal_Arsip"
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(549, 214)
+        Me.TextBox5.Location = New System.Drawing.Point(412, 174)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(302, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(228, 20)
         Me.TextBox5.TabIndex = 10
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
-        Me.DataGridView1.Location = New System.Drawing.Point(116, 314)
+        Me.DataGridView1.Location = New System.Drawing.Point(72, 224)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(678, 174)
+        Me.DataGridView1.Size = New System.Drawing.Size(508, 141)
         Me.DataGridView1.TabIndex = 11
         '
         'Column1
@@ -181,9 +193,9 @@ Partial Class ArsipRiwayat
         '
         'ArsipRiwayat
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(944, 549)
+        Me.ClientSize = New System.Drawing.Size(708, 446)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.Label5)
@@ -196,6 +208,7 @@ Partial Class ArsipRiwayat
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "ArsipRiwayat"
         Me.Text = "ArsipRiwayat"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

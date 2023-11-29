@@ -43,6 +43,7 @@ Partial Class MonitoringProgress
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -50,117 +51,131 @@ Partial Class MonitoringProgress
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(9, 10)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(378, 206)
+        Me.PictureBox1.Size = New System.Drawing.Size(284, 167)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(415, 22)
+        Me.Label1.Location = New System.Drawing.Point(311, 18)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(89, 16)
+        Me.Label1.Size = New System.Drawing.Size(73, 13)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "ID_Monitoring"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(571, 22)
+        Me.TextBox1.Location = New System.Drawing.Point(428, 18)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(307, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(231, 20)
         Me.TextBox1.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(415, 67)
+        Me.Label2.Location = New System.Drawing.Point(311, 54)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(96, 16)
+        Me.Label2.Size = New System.Drawing.Size(78, 13)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "ID_TugasAkhir"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(571, 67)
+        Me.TextBox2.Location = New System.Drawing.Point(428, 54)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(307, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(231, 20)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(415, 114)
+        Me.Label3.Location = New System.Drawing.Point(311, 93)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(31, 16)
+        Me.Label3.Size = New System.Drawing.Size(27, 13)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "NIM"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(571, 114)
+        Me.TextBox3.Location = New System.Drawing.Point(428, 93)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(307, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(231, 20)
         Me.TextBox3.TabIndex = 6
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(415, 166)
+        Me.Label4.Location = New System.Drawing.Point(311, 135)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(47, 16)
+        Me.Label4.Size = New System.Drawing.Size(38, 13)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Tahap"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(571, 163)
+        Me.TextBox4.Location = New System.Drawing.Point(428, 132)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(307, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(231, 20)
         Me.TextBox4.TabIndex = 8
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(413, 218)
+        Me.Label5.Location = New System.Drawing.Point(310, 177)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(53, 16)
+        Me.Label5.Size = New System.Drawing.Size(44, 13)
         Me.Label5.TabIndex = 9
         Me.Label5.Text = "Catatan"
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(571, 212)
+        Me.TextBox5.Location = New System.Drawing.Point(428, 172)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(307, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(231, 20)
         Me.TextBox5.TabIndex = 10
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(413, 271)
+        Me.Label6.Location = New System.Drawing.Point(310, 220)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(127, 16)
+        Me.Label6.Size = New System.Drawing.Size(101, 13)
         Me.Label6.TabIndex = 11
         Me.Label6.Text = "Tanggal_Monitoring"
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(571, 265)
+        Me.TextBox6.Location = New System.Drawing.Point(428, 215)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(307, 22)
+        Me.TextBox6.Size = New System.Drawing.Size(231, 20)
         Me.TextBox6.TabIndex = 12
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
-        Me.DataGridView1.Location = New System.Drawing.Point(74, 334)
+        Me.DataGridView1.Location = New System.Drawing.Point(56, 271)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(804, 203)
+        Me.DataGridView1.Size = New System.Drawing.Size(603, 165)
         Me.DataGridView1.TabIndex = 14
         '
         'Column1
@@ -205,11 +220,20 @@ Partial Class MonitoringProgress
         Me.Column6.Name = "Column6"
         Me.Column6.Width = 125
         '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(122, 212)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.TabIndex = 15
+        '
         'MonitoringProgress
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(944, 549)
+        Me.ClientSize = New System.Drawing.Size(708, 446)
+        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.Label6)
@@ -224,6 +248,7 @@ Partial Class MonitoringProgress
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "MonitoringProgress"
         Me.Text = "MonitoringProgress"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -253,4 +278,5 @@ Partial Class MonitoringProgress
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents ComboBox1 As ComboBox
 End Class

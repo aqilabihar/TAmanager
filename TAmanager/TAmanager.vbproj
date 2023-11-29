@@ -89,10 +89,22 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArsipRiwayat.Designer.vb">
+      <DependentUpon>ArsipRiwayat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ArsipRiwayat.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DaftarTA.Designer.vb">
       <DependentUpon>DaftarTA.vb</DependentUpon>
     </Compile>
     <Compile Include="DaftarTA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailTA.Designer.vb">
+      <DependentUpon>DetailTA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DetailTA.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EvaluasiPenilaian.Designer.vb">
@@ -186,9 +198,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ArsipRiwayat.resx">
+      <DependentUpon>ArsipRiwayat.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DaftarTA.resx">
       <DependentUpon>DaftarTA.vb</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailTA.resx">
+      <DependentUpon>DetailTA.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EvaluasiPenilaian.resx">
       <DependentUpon>EvaluasiPenilaian.vb</DependentUpon>

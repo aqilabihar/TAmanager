@@ -46,5 +46,7 @@ Public Class Logindosen
         End Try
     End Function
 
+    Private Sub Logindosen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class

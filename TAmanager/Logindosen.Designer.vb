@@ -28,46 +28,52 @@ Partial Class Logindosen
         Me.txtusername = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(94, 46)
+        Me.Label3.Location = New System.Drawing.Point(125, 57)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(99, 17)
+        Me.Label3.Size = New System.Drawing.Size(115, 20)
         Me.Label3.TabIndex = 11
         Me.Label3.Text = "Login Dosen"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(51, 112)
+        Me.Label4.Location = New System.Drawing.Point(68, 138)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 13)
+        Me.Label4.Size = New System.Drawing.Size(48, 16)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "Label4"
         '
         'txtpassword
         '
-        Me.txtpassword.Location = New System.Drawing.Point(97, 109)
+        Me.txtpassword.Location = New System.Drawing.Point(129, 134)
+        Me.txtpassword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtpassword.Name = "txtpassword"
-        Me.txtpassword.Size = New System.Drawing.Size(100, 20)
+        Me.txtpassword.Size = New System.Drawing.Size(132, 22)
         Me.txtpassword.TabIndex = 9
         '
         'txtusername
         '
-        Me.txtusername.Location = New System.Drawing.Point(97, 83)
+        Me.txtusername.Location = New System.Drawing.Point(129, 102)
+        Me.txtusername.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtusername.Name = "txtusername"
-        Me.txtusername.Size = New System.Drawing.Size(100, 20)
+        Me.txtusername.Size = New System.Drawing.Size(132, 22)
         Me.txtusername.TabIndex = 8
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(97, 151)
+        Me.Button2.Location = New System.Drawing.Point(71, 186)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(100, 28)
         Me.Button2.TabIndex = 7
         Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
@@ -75,17 +81,29 @@ Partial Class Logindosen
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(51, 86)
+        Me.Label5.Location = New System.Drawing.Point(68, 106)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(39, 13)
+        Me.Label5.Size = New System.Drawing.Size(48, 16)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "Label5"
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(192, 186)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
+        Me.Button1.TabIndex = 12
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Logindosen
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(273, 225)
+        Me.ClientSize = New System.Drawing.Size(364, 277)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtpassword)
@@ -93,6 +111,7 @@ Partial Class Logindosen
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label5)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Logindosen"
         Me.Text = "Logindosen"
         Me.ResumeLayout(False)
@@ -106,4 +125,5 @@ Partial Class Logindosen
     Friend WithEvents txtusername As TextBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Label5 As Label
+    Friend WithEvents Button1 As Button
 End Class

@@ -188,6 +188,7 @@
   <ItemGroup>
     <EmbeddedResource Include="DaftarTA.resx">
       <DependentUpon>DaftarTA.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="EvaluasiPenilaian.resx">
       <DependentUpon>EvaluasiPenilaian.vb</DependentUpon>

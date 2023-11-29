@@ -16,7 +16,7 @@ Public Class Logindosen
             My.Settings.Save()
 
             ' Buka form PMDosen
-            Dim formPMDosen As New pmdosen()
+            Dim formPMDosen As New MenuDSN()
             formPMDosen.Show()
 
             ' Menutup form login

@@ -29,16 +29,16 @@ Partial Class login
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(27, 251)
+        Me.Button1.Location = New System.Drawing.Point(27, 236)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(244, 35)
+        Me.Button1.Size = New System.Drawing.Size(244, 26)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "mahasiswa"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(27, 292)
+        Me.Button2.Location = New System.Drawing.Point(27, 268)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(244, 31)
         Me.Button2.TabIndex = 1
@@ -52,7 +52,7 @@ Partial Class login
         Me.Panel1.Size = New System.Drawing.Size(290, 218)
         Me.Panel1.TabIndex = 2
         '
-        'Form1
+        'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -61,7 +61,7 @@ Partial Class login
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Cursor = System.Windows.Forms.Cursors.Default
-        Me.Name = "Form1"
+        Me.Name = "login"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 

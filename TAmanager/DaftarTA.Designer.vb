@@ -24,20 +24,11 @@ Partial Class DaftarTA
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DaftarTA))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.inf = New System.Windows.Forms.Label()
+        Me.informasi = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.judul = New System.Windows.Forms.TextBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -46,6 +37,10 @@ Partial Class DaftarTA
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.daftar = New System.Windows.Forms.Button()
+        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.dosen = New System.Windows.Forms.ComboBox()
+        Me.btnhapus = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -53,134 +48,69 @@ Partial Class DaftarTA
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(9, 10)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(229, 181)
+        Me.PictureBox1.Size = New System.Drawing.Size(172, 147)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'Label1
+        'inf
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(277, 25)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(96, 16)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "ID_TugasAkhir"
+        Me.inf.AutoSize = True
+        Me.inf.Location = New System.Drawing.Point(208, 92)
+        Me.inf.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.inf.Name = "inf"
+        Me.inf.Size = New System.Drawing.Size(99, 13)
+        Me.inf.TabIndex = 1
+        Me.inf.Text = "Informasi tambahan"
         '
-        'TextBox1
+        'informasi
         '
-        Me.TextBox1.Location = New System.Drawing.Point(420, 22)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(332, 22)
-        Me.TextBox1.TabIndex = 2
+        Me.informasi.Location = New System.Drawing.Point(315, 89)
+        Me.informasi.Margin = New System.Windows.Forms.Padding(2)
+        Me.informasi.Name = "informasi"
+        Me.informasi.Size = New System.Drawing.Size(250, 20)
+        Me.informasi.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(277, 67)
+        Me.Label2.Location = New System.Drawing.Point(208, 55)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(106, 16)
+        Me.Label2.Size = New System.Drawing.Size(95, 13)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Mahasiswa_NIM"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(420, 67)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(332, 22)
-        Me.TextBox2.TabIndex = 4
+        Me.Label2.Text = "dosen pembimbing"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(302, 116)
+        Me.Label3.Location = New System.Drawing.Point(208, 21)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 16)
+        Me.Label3.Size = New System.Drawing.Size(32, 13)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Judul"
         '
-        'TextBox3
+        'judul
         '
-        Me.TextBox3.Location = New System.Drawing.Point(420, 113)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(332, 22)
-        Me.TextBox3.TabIndex = 6
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(291, 162)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(64, 16)
-        Me.Label4.TabIndex = 7
-        Me.Label4.Text = "Deskripsi"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(420, 156)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(332, 22)
-        Me.TextBox4.TabIndex = 8
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(252, 207)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(159, 16)
-        Me.Label5.TabIndex = 9
-        Me.Label5.Text = "Dosen_Pembimbing_NIP"
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(420, 201)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(332, 22)
-        Me.TextBox5.TabIndex = 10
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(252, 252)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(138, 16)
-        Me.Label6.TabIndex = 11
-        Me.Label6.Text = "Tanggal_Pendaftaran"
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(420, 252)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(332, 22)
-        Me.TextBox6.TabIndex = 12
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(252, 303)
-        Me.Label7.Name = "Label7"
-        Me.Label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label7.Size = New System.Drawing.Size(133, 16)
-        Me.Label7.TabIndex = 13
-        Me.Label7.Text = "Tanggal_Pengiriman"
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(420, 300)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(332, 22)
-        Me.TextBox7.TabIndex = 14
+        Me.judul.Location = New System.Drawing.Point(315, 18)
+        Me.judul.Margin = New System.Windows.Forms.Padding(2)
+        Me.judul.Name = "judul"
+        Me.judul.Size = New System.Drawing.Size(250, 20)
+        Me.judul.TabIndex = 6
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7})
-        Me.DataGridView1.Location = New System.Drawing.Point(13, 371)
+        Me.DataGridView1.Location = New System.Drawing.Point(9, 171)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(929, 185)
+        Me.DataGridView1.Size = New System.Drawing.Size(697, 150)
         Me.DataGridView1.TabIndex = 15
         '
         'Column1
@@ -232,27 +162,49 @@ Partial Class DaftarTA
         Me.Column7.Name = "Column7"
         Me.Column7.Width = 125
         '
+        'daftar
+        '
+        Me.daftar.Location = New System.Drawing.Point(315, 127)
+        Me.daftar.Name = "daftar"
+        Me.daftar.Size = New System.Drawing.Size(75, 23)
+        Me.daftar.TabIndex = 17
+        Me.daftar.Text = "daftar"
+        Me.daftar.UseVisualStyleBackColor = True
+        '
+        'dosen
+        '
+        Me.dosen.FormattingEnabled = True
+        Me.dosen.Location = New System.Drawing.Point(315, 55)
+        Me.dosen.Name = "dosen"
+        Me.dosen.Size = New System.Drawing.Size(250, 21)
+        Me.dosen.TabIndex = 19
+        '
+        'btnhapus
+        '
+        Me.btnhapus.Location = New System.Drawing.Point(306, 337)
+        Me.btnhapus.Name = "btnhapus"
+        Me.btnhapus.Size = New System.Drawing.Size(75, 23)
+        Me.btnhapus.TabIndex = 20
+        Me.btnhapus.Text = "hapus"
+        Me.btnhapus.UseVisualStyleBackColor = True
+        '
         'DaftarTA
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(975, 568)
+        Me.ClientSize = New System.Drawing.Size(731, 462)
+        Me.Controls.Add(Me.btnhapus)
+        Me.Controls.Add(Me.dosen)
+        Me.Controls.Add(Me.daftar)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.judul)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.informasi)
+        Me.Controls.Add(Me.inf)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "DaftarTA"
         Me.Text = "DaftarTA"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -263,20 +215,11 @@ Partial Class DaftarTA
     End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents inf As Label
+    Friend WithEvents informasi As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents judul As TextBox
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
@@ -285,4 +228,8 @@ Partial Class DaftarTA
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents Column7 As DataGridViewTextBoxColumn
+    Friend WithEvents daftar As Button
+    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents dosen As ComboBox
+    Friend WithEvents btnhapus As Button
 End Class

@@ -1,8 +1,12 @@
 ﻿Imports System.Data.Odbc
+Imports System.Runtime.CompilerServices
 
 Public Class MonitoringProgress
     ' Pada saat load form, isi combo box dengan tugas akhir yang berhubungan dengan NIP dosen
-    Private Sub FormMonitoringTugasAkhir_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub FormMonitoringTugasAkhir_Load(sender As Object, e As System.Windows.Forms.PaintEventArgs) Handles MyBase.Load
+
+        ControlPaint.DrawBorder(e.Graphics, Me.ClientRectangle, Color.Black, ButtonBorderStyle.Solid)
+
         ' Ambil NIP dosen yang sedang login dari My.Settings
         Dim nipDosen As String = My.Settings.NIPdsn
 

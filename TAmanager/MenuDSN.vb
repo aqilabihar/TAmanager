@@ -17,7 +17,5 @@
         switchppanel(ArsipRiwayat)
     End Sub
 
-    Private Sub MenuDSN_Load(sender As Object, e As System.Windows.Forms.PaintEventArgs) Handles MyBase.Load
-        ControlPaint.DrawBorder(e.Graphics, e.ClipRectangle, Color.Black, ButtonBorderStyle.Solid)
-    End Sub
+
 End Class

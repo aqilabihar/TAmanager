@@ -1,4 +1,5 @@
 ﻿Public Class MenuDSN
+
     Sub switchppanel(ByVal panel As Form)
         Panel1.Controls.Clear()
         panel.TopLevel = False
@@ -14,5 +15,9 @@
     End Sub
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         switchppanel(ArsipRiwayat)
+    End Sub
+
+    Private Sub MenuDSN_Load(sender As Object, e As System.Windows.Forms.PaintEventArgs) Handles MyBase.Load
+        ControlPaint.DrawBorder(e.Graphics, e.ClipRectangle, Color.Black, ButtonBorderStyle.Solid)
     End Sub
 End Class

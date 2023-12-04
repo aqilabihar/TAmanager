@@ -27,9 +27,6 @@ Partial Class ArsipRiwayat
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.txtdsn = New System.Windows.Forms.Label()
         Me.txtjudul = New System.Windows.Forms.Label()
         Me.txtmhs = New System.Windows.Forms.Label()
@@ -75,37 +72,10 @@ Partial Class ArsipRiwayat
         Me.Button1.Text = "Check"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(300, 178)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(94, 13)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "nama mahasiswa :"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(300, 203)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(87, 13)
-        Me.Label3.TabIndex = 7
-        Me.Label3.Text = "judul tugas akhir:"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(300, 230)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(98, 13)
-        Me.Label4.TabIndex = 8
-        Me.Label4.Text = "nama pembimbing :"
-        '
         'txtdsn
         '
         Me.txtdsn.AutoSize = True
-        Me.txtdsn.Location = New System.Drawing.Point(404, 230)
+        Me.txtdsn.Location = New System.Drawing.Point(297, 230)
         Me.txtdsn.Name = "txtdsn"
         Me.txtdsn.Size = New System.Drawing.Size(39, 13)
         Me.txtdsn.TabIndex = 9
@@ -114,7 +84,7 @@ Partial Class ArsipRiwayat
         'txtjudul
         '
         Me.txtjudul.AutoSize = True
-        Me.txtjudul.Location = New System.Drawing.Point(404, 203)
+        Me.txtjudul.Location = New System.Drawing.Point(297, 203)
         Me.txtjudul.Name = "txtjudul"
         Me.txtjudul.Size = New System.Drawing.Size(39, 13)
         Me.txtjudul.TabIndex = 10
@@ -123,7 +93,7 @@ Partial Class ArsipRiwayat
         'txtmhs
         '
         Me.txtmhs.AutoSize = True
-        Me.txtmhs.Location = New System.Drawing.Point(404, 178)
+        Me.txtmhs.Location = New System.Drawing.Point(297, 178)
         Me.txtmhs.Name = "txtmhs"
         Me.txtmhs.Size = New System.Drawing.Size(39, 13)
         Me.txtmhs.TabIndex = 11
@@ -137,9 +107,6 @@ Partial Class ArsipRiwayat
         Me.Controls.Add(Me.txtmhs)
         Me.Controls.Add(Me.txtjudul)
         Me.Controls.Add(Me.txtdsn)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label1)
@@ -157,9 +124,6 @@ Partial Class ArsipRiwayat
     Friend WithEvents Label1 As Label
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents txtdsn As Label
     Friend WithEvents txtjudul As Label
     Friend WithEvents txtmhs As Label

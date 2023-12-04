@@ -125,12 +125,6 @@
     <Compile Include="menuMHS.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMHS.Designer.vb">
-      <DependentUpon>FormMHS.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormMHS.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Logindosen.Designer.vb">
       <DependentUpon>Logindosen.vb</DependentUpon>
     </Compile>
@@ -204,9 +198,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EvaluasiPenilaian.resx">
       <DependentUpon>EvaluasiPenilaian.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormMHS.resx">
-      <DependentUpon>FormMHS.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuDSN.resx">
       <DependentUpon>MenuDSN.vb</DependentUpon>

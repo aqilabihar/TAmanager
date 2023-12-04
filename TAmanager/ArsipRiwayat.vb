@@ -28,7 +28,7 @@ Public Class ArsipRiwayat
 
         ' Gantilah ini dengan implementasi sesuai dengan kebutuhan Anda
         ' Misalnya, lakukan kueri ke database untuk mendapatkan informasi tugas akhir berdasarkan judul
-        Using connection As New OdbcConnection("connection_string_here")
+        Using connection As New OdbcConnection("Dsn=TAmanager;database=tugas_akhir;db=tugas_akhir;no_schema=1;port=3306;server=localhost;uid=root;user=root")
             connection.Open()
             Dim query As String = "SELECT Mahasiswa.Nama AS NamaMahasiswa, Dosen.Nama AS NamaDosen, TugasAkhir.Judul " &
                                   "FROM TugasAkhir " &

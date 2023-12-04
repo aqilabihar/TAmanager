@@ -25,17 +25,19 @@ Partial Class EvaluasiPenilaian
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(EvaluasiPenilaian))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.cek = New System.Windows.Forms.Button()
+        Me.txteval = New System.Windows.Forms.TextBox()
+        Me.txtnilai = New System.Windows.Forms.TextBox()
+        Me.btntampil = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -43,88 +45,43 @@ Partial Class EvaluasiPenilaian
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(9, 10)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(363, 206)
+        Me.PictureBox1.Size = New System.Drawing.Size(272, 167)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(402, 89)
+        Me.Label1.Location = New System.Drawing.Point(302, 72)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(59, 16)
+        Me.Label1.Size = New System.Drawing.Size(47, 13)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Evaluasi"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(534, 89)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(325, 22)
-        Me.TextBox1.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(402, 73)
+        Me.Label2.Location = New System.Drawing.Point(302, 59)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(0, 16)
+        Me.Label2.Size = New System.Drawing.Size(0, 13)
         Me.Label2.TabIndex = 3
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.DataGridView1.Location = New System.Drawing.Point(284, 314)
+        Me.DataGridView1.Location = New System.Drawing.Point(149, 228)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(428, 203)
+        Me.DataGridView1.Size = New System.Drawing.Size(435, 165)
         Me.DataGridView1.TabIndex = 13
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(402, 35)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 16)
-        Me.Label3.TabIndex = 14
-        Me.Label3.Text = "Judul"
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(534, 35)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(325, 24)
-        Me.ComboBox1.TabIndex = 15
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(402, 152)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(63, 16)
-        Me.Label4.TabIndex = 16
-        Me.Label4.Text = "Penilaian"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(534, 152)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(325, 22)
-        Me.TextBox2.TabIndex = 17
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(534, 231)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(98, 44)
-        Me.Button1.TabIndex = 18
-        Me.Button1.Text = "Input"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Column1
         '
@@ -147,21 +104,99 @@ Partial Class EvaluasiPenilaian
         Me.Column3.Name = "Column3"
         Me.Column3.Width = 125
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(302, 28)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(32, 13)
+        Me.Label3.TabIndex = 14
+        Me.Label3.Text = "Judul"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(400, 28)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(245, 21)
+        Me.ComboBox1.TabIndex = 15
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(302, 124)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(50, 13)
+        Me.Label4.TabIndex = 16
+        Me.Label4.Text = "Penilaian"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(351, 170)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(74, 36)
+        Me.Button1.TabIndex = 18
+        Me.Button1.Text = "Input"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'cek
+        '
+        Me.cek.Location = New System.Drawing.Point(71, 238)
+        Me.cek.Margin = New System.Windows.Forms.Padding(2)
+        Me.cek.Name = "cek"
+        Me.cek.Size = New System.Drawing.Size(74, 36)
+        Me.cek.TabIndex = 19
+        Me.cek.Text = "refresh"
+        Me.cek.UseVisualStyleBackColor = True
+        '
+        'txteval
+        '
+        Me.txteval.Location = New System.Drawing.Point(400, 72)
+        Me.txteval.Margin = New System.Windows.Forms.Padding(2)
+        Me.txteval.Name = "txteval"
+        Me.txteval.Size = New System.Drawing.Size(245, 20)
+        Me.txteval.TabIndex = 2
+        '
+        'txtnilai
+        '
+        Me.txtnilai.Location = New System.Drawing.Point(400, 121)
+        Me.txtnilai.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtnilai.Name = "txtnilai"
+        Me.txtnilai.Size = New System.Drawing.Size(245, 20)
+        Me.txtnilai.TabIndex = 20
+        '
+        'btntampil
+        '
+        Me.btntampil.Location = New System.Drawing.Point(71, 314)
+        Me.btntampil.Margin = New System.Windows.Forms.Padding(2)
+        Me.btntampil.Name = "btntampil"
+        Me.btntampil.Size = New System.Drawing.Size(74, 36)
+        Me.btntampil.TabIndex = 21
+        Me.btntampil.Text = "refresh"
+        Me.btntampil.UseVisualStyleBackColor = True
+        '
         'EvaluasiPenilaian
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(944, 549)
+        Me.ClientSize = New System.Drawing.Size(708, 446)
+        Me.Controls.Add(Me.btntampil)
+        Me.Controls.Add(Me.txtnilai)
+        Me.Controls.Add(Me.cek)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txteval)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "EvaluasiPenilaian"
         Me.Text = "EvaluasiPenilaian"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -173,15 +208,17 @@ Partial Class EvaluasiPenilaian
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Label3 As Label
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Button1 As Button
+    Friend WithEvents cek As Button
+    Friend WithEvents txteval As TextBox
+    Friend WithEvents txtnilai As TextBox
+    Friend WithEvents btntampil As Button
 End Class

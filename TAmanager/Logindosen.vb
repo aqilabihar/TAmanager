@@ -5,14 +5,14 @@ Public Class Logindosen
     Dim connection As New OdbcConnection(connectionString)
 
     Private Sub BtnLogin_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Dim username As String = txtusername.Text
+        Dim NIP As String = txtusername.Text
         Dim password As String = txtpassword.Text
 
-        If AuthenticateUser(username, password) Then
+        If AuthenticateUser(NIP, password) Then
             MessageBox.Show("Login berhasil!")
 
             ' Menyimpan informasi login untuk penggunaan di form selanjutnya
-            My.Settings.DosenUsername = username
+            My.Settings.NIPdsn = NIP
             My.Settings.Save()
 
             ' Buka form PMDosen
@@ -26,13 +26,13 @@ Public Class Logindosen
         End If
     End Sub
 
-    Private Function AuthenticateUser(username As String, password As String) As Boolean
+    Private Function AuthenticateUser(NIP As String, password As String) As Boolean
         Try
             connection.Open()
-            Dim query As String = "SELECT COUNT(*) FROM Dosen WHERE Nama = ? AND TanggalLahir = ?"
+            Dim query As String = "SELECT COUNT(*) FROM Dosen WHERE NIP = ? AND Tanggal_Lahir = ?"
             Dim cmd As New OdbcCommand(query, connection)
-            cmd.Parameters.AddWithValue("@Nama", username)
-            cmd.Parameters.AddWithValue("@TanggalLahir", password)
+            cmd.Parameters.AddWithValue("@NIP", NIP)
+            cmd.Parameters.AddWithValue("@Tanggal_Lahir", password)
 
             ' Menggunakan COUNT(*) untuk memeriksa apakah dosen dengan nama dan tanggal lahir tersebut ada
             Dim count As Integer = Convert.ToInt32(cmd.ExecuteScalar())

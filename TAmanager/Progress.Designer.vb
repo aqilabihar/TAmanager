@@ -42,62 +42,69 @@ Partial Class Progress
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(9, 10)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(206, 136)
+        Me.PictureBox1.Size = New System.Drawing.Size(154, 110)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(276, 19)
+        Me.Label1.Location = New System.Drawing.Point(207, 15)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 16)
+        Me.Label1.Size = New System.Drawing.Size(37, 13)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Status"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(276, 70)
+        Me.Label2.Location = New System.Drawing.Point(207, 57)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(62, 16)
+        Me.Label2.Size = New System.Drawing.Size(50, 13)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Tahapan"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(382, 67)
+        Me.TextBox2.Location = New System.Drawing.Point(286, 54)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(323, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(243, 20)
         Me.TextBox2.TabIndex = 4
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(276, 119)
+        Me.Label3.Location = New System.Drawing.Point(207, 97)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(65, 16)
+        Me.Label3.Size = New System.Drawing.Size(52, 13)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Milestone"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(382, 119)
+        Me.TextBox3.Location = New System.Drawing.Point(286, 97)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(323, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(243, 20)
         Me.TextBox3.TabIndex = 6
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.DataGridView1.Location = New System.Drawing.Point(209, 230)
+        Me.DataGridView1.Location = New System.Drawing.Point(141, 177)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(428, 201)
+        Me.DataGridView1.Size = New System.Drawing.Size(426, 163)
         Me.DataGridView1.TabIndex = 7
         '
         'Column1
@@ -124,25 +131,27 @@ Partial Class Progress
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(382, 19)
+        Me.ComboBox1.Location = New System.Drawing.Point(286, 15)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(323, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(243, 21)
         Me.ComboBox1.TabIndex = 8
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(382, 165)
+        Me.Button1.Location = New System.Drawing.Point(286, 134)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(95, 48)
+        Me.Button1.Size = New System.Drawing.Size(71, 39)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "Input"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Progress
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(944, 549)
+        Me.ClientSize = New System.Drawing.Size(708, 446)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.DataGridView1)
@@ -152,6 +161,7 @@ Partial Class Progress
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Progress"
         Me.Text = "Progress"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

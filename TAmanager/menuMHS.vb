@@ -13,10 +13,12 @@
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
-
+        switchppanel(Progress )
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs)
 
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        switchppanel(Unggahvb)
     End Sub
 End Class

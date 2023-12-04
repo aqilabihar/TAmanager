@@ -56,6 +56,7 @@ Namespace My
 
         Public Property DosenUsername As String
         Public Property MahasiswaNIM As String
+        Public Property NIPdsn As String
     End Class
 End Namespace
 

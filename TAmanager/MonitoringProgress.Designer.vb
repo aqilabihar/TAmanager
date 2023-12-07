@@ -37,28 +37,30 @@ Partial Class MonitoringProgress
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.PictureBox1.Location = New System.Drawing.Point(9, 10)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(379, 206)
+        Me.PictureBox1.Size = New System.Drawing.Size(284, 167)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(415, 22)
+        Me.Label1.Location = New System.Drawing.Point(311, 18)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 16)
+        Me.Label1.Size = New System.Drawing.Size(32, 13)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Judul"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(415, 82)
+        Me.Label6.Location = New System.Drawing.Point(311, 67)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(127, 16)
+        Me.Label6.Size = New System.Drawing.Size(101, 13)
         Me.Label6.TabIndex = 11
         Me.Label6.Text = "Tanggal_Monitoring"
         '
@@ -67,46 +69,46 @@ Partial Class MonitoringProgress
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(23, 286)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.DataGridView1.Location = New System.Drawing.Point(17, 232)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(909, 203)
+        Me.DataGridView1.Size = New System.Drawing.Size(682, 165)
         Me.DataGridView1.TabIndex = 14
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(571, 82)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(428, 67)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(235, 22)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(177, 20)
         Me.DateTimePicker1.TabIndex = 15
         '
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(571, 22)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ComboBox1.Location = New System.Drawing.Point(428, 18)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(235, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(177, 21)
         Me.ComboBox1.TabIndex = 16
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(499, 210)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button1.Location = New System.Drawing.Point(374, 171)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(107, 50)
+        Me.Button1.Size = New System.Drawing.Size(80, 41)
         Me.Button1.TabIndex = 17
         Me.Button1.Text = "Check"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'MonitoringProgress
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(944, 549)
+        Me.ClientSize = New System.Drawing.Size(708, 446)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.DateTimePicker1)
@@ -114,7 +116,8 @@ Partial Class MonitoringProgress
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "MonitoringProgress"
         Me.Text = "MonitoringProgress"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

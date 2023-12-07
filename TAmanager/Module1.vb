@@ -10,7 +10,7 @@ Module Module1
     Public strcon As String
 
     Public Sub konek()
-        strcon = "Driver={MySQL ODBC 8.2 Driver};database=ta;server=localhost;uid=root"
+        strcon = "Dsn=TAmanager;database=tugas_akhir;db=tugas_akhir;no_schema=1;port=3306;server=localhost;uid=root;user=root"
         conn = New OdbcConnection(strcon)
         If conn.State = ConnectionState.Closed Then
             conn.Open()

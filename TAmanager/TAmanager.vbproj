@@ -150,6 +150,7 @@
     <Compile Include="LoginPage.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Module2.vb" />
     <Compile Include="MonitoringProgress.Designer.vb">
       <DependentUpon>MonitoringProgress.vb</DependentUpon>
     </Compile>

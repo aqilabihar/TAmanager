@@ -17,5 +17,7 @@
         switchppanel(ArsipRiwayat)
     End Sub
 
+    Private Sub MenuDSN_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class

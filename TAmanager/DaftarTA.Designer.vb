@@ -191,6 +191,7 @@ Partial Class DaftarTA
         Me.Controls.Add(Me.judul)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "DaftarTA"
         Me.Text = "DaftarTA"

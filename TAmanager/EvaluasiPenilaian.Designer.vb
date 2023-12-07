@@ -196,6 +196,7 @@ Partial Class EvaluasiPenilaian
         Me.Controls.Add(Me.txteval)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "EvaluasiPenilaian"
         Me.Text = "EvaluasiPenilaian"

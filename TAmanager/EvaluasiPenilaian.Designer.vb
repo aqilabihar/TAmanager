@@ -27,14 +27,10 @@ Partial Class EvaluasiPenilaian
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.cek = New System.Windows.Forms.Button()
         Me.txteval = New System.Windows.Forms.TextBox()
         Me.txtnilai = New System.Windows.Forms.TextBox()
         Me.btntampil = New System.Windows.Forms.Button()
@@ -74,7 +70,6 @@ Partial Class EvaluasiPenilaian
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
         Me.DataGridView1.Location = New System.Drawing.Point(149, 228)
         Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
@@ -82,27 +77,6 @@ Partial Class EvaluasiPenilaian
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(435, 165)
         Me.DataGridView1.TabIndex = 13
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = "Judul"
-        Me.Column1.MinimumWidth = 6
-        Me.Column1.Name = "Column1"
-        Me.Column1.Width = 125
-        '
-        'Column2
-        '
-        Me.Column2.HeaderText = "Evaluasi"
-        Me.Column2.MinimumWidth = 6
-        Me.Column2.Name = "Column2"
-        Me.Column2.Width = 125
-        '
-        'Column3
-        '
-        Me.Column3.HeaderText = "Penilaian"
-        Me.Column3.MinimumWidth = 6
-        Me.Column3.Name = "Column3"
-        Me.Column3.Width = 125
         '
         'Label3
         '
@@ -143,16 +117,6 @@ Partial Class EvaluasiPenilaian
         Me.Button1.Text = "Input"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'cek
-        '
-        Me.cek.Location = New System.Drawing.Point(71, 238)
-        Me.cek.Margin = New System.Windows.Forms.Padding(2)
-        Me.cek.Name = "cek"
-        Me.cek.Size = New System.Drawing.Size(74, 36)
-        Me.cek.TabIndex = 19
-        Me.cek.Text = "refresh"
-        Me.cek.UseVisualStyleBackColor = True
-        '
         'txteval
         '
         Me.txteval.Location = New System.Drawing.Point(400, 72)
@@ -171,7 +135,7 @@ Partial Class EvaluasiPenilaian
         '
         'btntampil
         '
-        Me.btntampil.Location = New System.Drawing.Point(71, 314)
+        Me.btntampil.Location = New System.Drawing.Point(71, 228)
         Me.btntampil.Margin = New System.Windows.Forms.Padding(2)
         Me.btntampil.Name = "btntampil"
         Me.btntampil.Size = New System.Drawing.Size(74, 36)
@@ -186,7 +150,6 @@ Partial Class EvaluasiPenilaian
         Me.ClientSize = New System.Drawing.Size(708, 446)
         Me.Controls.Add(Me.btntampil)
         Me.Controls.Add(Me.txtnilai)
-        Me.Controls.Add(Me.cek)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.ComboBox1)
@@ -214,11 +177,7 @@ Partial Class EvaluasiPenilaian
     Friend WithEvents Label3 As Label
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Button1 As Button
-    Friend WithEvents cek As Button
     Friend WithEvents txteval As TextBox
     Friend WithEvents txtnilai As TextBox
     Friend WithEvents btntampil As Button

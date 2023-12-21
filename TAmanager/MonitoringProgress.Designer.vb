@@ -38,7 +38,7 @@ Partial Class MonitoringProgress
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(9, 10)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(284, 167)
         Me.PictureBox1.TabIndex = 0
@@ -70,7 +70,7 @@ Partial Class MonitoringProgress
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(17, 232)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
@@ -80,7 +80,7 @@ Partial Class MonitoringProgress
         'DateTimePicker1
         '
         Me.DateTimePicker1.Location = New System.Drawing.Point(428, 67)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(177, 20)
         Me.DateTimePicker1.TabIndex = 15
@@ -89,7 +89,7 @@ Partial Class MonitoringProgress
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Location = New System.Drawing.Point(428, 18)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(177, 21)
         Me.ComboBox1.TabIndex = 16
@@ -97,7 +97,7 @@ Partial Class MonitoringProgress
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(374, 171)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(80, 41)
         Me.Button1.TabIndex = 17
@@ -117,7 +117,7 @@ Partial Class MonitoringProgress
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MonitoringProgress"
         Me.Text = "MonitoringProgress"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

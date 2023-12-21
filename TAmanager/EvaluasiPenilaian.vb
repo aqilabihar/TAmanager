@@ -130,4 +130,8 @@ Public Class EvaluasiPenilaian
         ' Panggil metode untuk menampilkan evaluasi yang sudah ada
         btnTampilkanEvaluasi_Click(sender, e)
     End Sub
+
+    Private Sub cek_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class
